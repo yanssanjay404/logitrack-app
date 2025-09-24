@@ -35,14 +35,15 @@ export const LoginForm = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-primary/5 to-primary/10 flex items-center justify-center p-4">
+    <div className="min-h-screen bg-white flex items-center justify-center p-4">
       <div className="w-full max-w-md">
         <div className="text-center mb-8">
-          <img 
-            src={logoImage} 
-            alt="LogiTrack Logo" 
-            className="h-24 mx-auto mb-4"
-          />
+        <img 
+          src={logoImage} 
+          alt="LogiTrack Logo" 
+          className="h-24 mx-auto mb-2"
+          style={{ transform: "scale(1.5)" }}
+        />
           <h1 className="text-2xl font-bold text-foreground">Selamat Datang</h1>
           <p className="text-muted-foreground">Masuk ke akun LogiTrack Anda</p>
         </div>
